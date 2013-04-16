@@ -1,0 +1,26 @@
+<!--   -->
+     
+<root xmlns="http://defaultnamespace.com/xml" xmlns:ns1="http://www.namespace1.net/namespace1" xmlns:ns2="http://www.namespace2.net/namespace2">
+    <ns1:element1 xmlns:ns4="http://www.namespace4.net/namespace4">
+        <ns1:element1 />
+    </ns1:element1>
+
+    <element2 /> <!-- http://defaultnamespace.com/xml -->
+   
+    <ns2:element3 />
+    
+    <element4 xmlns="http://www.namespace3.net/namespace3">
+        <element5> <!-- http://www.namespace3.net/namespace3 -->
+            
+        </element5>
+        <ns2:element6 /> <!-- http://www.namespace2.net/namespace2 -->
+    </element4>
+    
+    <element2 /> <!-- http://defaultnamespace.com/xml -->
+    
+    <element7 xmlns="http://defaultnamespace.com/2">
+        <element8 /> <!-- http://defaultnamespace.com/2 -->
+    </element7>
+
+    <element2 /> <!-- http://defaultnamespace.com/xml -->
+</root>

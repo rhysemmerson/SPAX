@@ -1,0 +1,41 @@
+Roadmap
+-------
+Odd number minor versions are not necessarily stable and 
+may contain untested code.  Even number minor versions 
+should be fully unit tested, this way x.even.0 releases
+will be a finalized and tested version of the previous
+minor version.
+
+Version 0.1.0
+-----------
+namespace processing, prefix mapping
+
+Attributes
+
+Error handling
+
+Provide default autoloader
+
+Version 0.1.1
+-----------
+
+Support XmlFilter
+
+XmlReaderFactory
+- Implement an XmlReader for each type of input and 
+  create factory methods to provide the appropriate
+  impl based on the input.
+
+ContentHandlerFactory
+- Factory to create content handler using anonymous 
+  functions.
+
+Version 0.1.2
+--------------
+Xml Validation
+
+... 
+
+Version 0.2.0
+-----------
+Unit test everything so far

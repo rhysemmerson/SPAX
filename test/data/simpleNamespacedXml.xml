@@ -1,0 +1,8 @@
+<ns1:element1 xmlns:ns1="http://namespace1.net/namespace1" xmlns:ns2="http://namespace2.net/namespace2">
+    <ns1:element2>
+        
+    </ns1:element2>
+    <ns2:element3>
+        
+    </ns2:element3>
+</ns1:element1>

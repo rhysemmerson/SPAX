@@ -1,0 +1,12 @@
+<element1>
+    <element2>
+        Value1Line1
+    </element2>
+    <element3>
+        Value2Line1
+        Value2Line2
+        
+        Value2Line4
+    </element3>
+    <element4 />
+</element1>

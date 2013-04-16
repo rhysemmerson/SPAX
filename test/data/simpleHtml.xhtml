@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Simple XHTML test</title>
+    </head>
+    <body>
+        <div id="header">
+            <a href="/index.php">
+                <img src="/logo.png" />
+            </a>
+        </div>
+        <div id="container">
+            <div id="sidebar" class="span4">
+
+            </div>
+            <div id="content" class="span8">
+                <div class="span4">
+                    <div itemscope="itemscope" itemtype="http://schema.org/Offer">
+                        <span itemprop="name">Blend-O-Matic</span>
+                        <span itemprop="price">$19.95</span>
+                        <div itemprop="reviews" itemscope="itemscope" itemtype="http://schema.org/AggregateRating">
+                            <img src="four-stars.jpg" />
+                            <meta itemprop="ratingValue" content="4" />
+                            <meta itemprop="bestRating" content="5" />
+                            Based on <span itemprop="ratingCount">25</span> user ratings
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
