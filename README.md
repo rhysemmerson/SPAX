@@ -12,6 +12,8 @@ environment.
 
 Usage
 ----
+To consume XML data you will need to create a class that implements Spax\ContentHandler. The easiest way to do
+this is to extend Spax\Helper\DefaultHandler and override the methods you need.
 
     class MyHandler extends Spax\Helper\DefaultHandler {
         public $numElements = 0;
@@ -35,6 +37,8 @@ Usage
         }
     }
     
+You can then pass an instance of your handler class to an XmlReader like so. 
+
     $xmlReader = new XmlReader();
     $handler = new MyHandler();
     $xmlReader->setContentHandler($handler);
