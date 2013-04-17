@@ -23,7 +23,7 @@ this is to extend Spax\Helper\DefaultHandler and override the methods you need.
             // your logic goes here
             $this->numElements++;
             
-            echo "start '" . $localName . "' and that makes " . $this->numElements . " element(s).";
+            echo "start '" . $localName . "' and that makes " . $this->numElements . " open element(s).";
         }
 
         public function characters($cdata) {
@@ -33,7 +33,7 @@ this is to extend Spax\Helper\DefaultHandler and override the methods you need.
         public function endElement($uri, $localName, $qName) {
             $this->numElements--;
             
-            echo "end '" . $localName . "' and that makes " . $this->numElements . " element(s).";
+            echo "end '" . $localName . "' and that makes " . $this->numElements . " opem element(s).";
         }
     }
     
