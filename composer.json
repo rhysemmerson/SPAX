@@ -1,5 +1,5 @@
 {
-    "name": "startDaemons/SPAX",
+    "name": "startdaemons/spax",
     "version": "0.0.1",
     "require": {
         "php": ">=5.3.3"
